@@ -1,5 +1,6 @@
 # RETORNA CENTÍMETRO DE MILÍMETRO DE METROS
 
-metro = int(input('Digite quantos metros: '))
+metro = float(input('Digite quantos metros: '))
+msg = 'metros' if metro > 1 else 'metro'
 
-print('1 metro tem {} centímetro e {} milímetros'.format(metro*100, metro*1000))
+print('{} {} tem {:.0f} centímetro e {:.0f} milímetros'.format(metro, msg, metro*100, metro*1000))
