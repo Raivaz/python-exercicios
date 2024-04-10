@@ -1,0 +1,17 @@
+CRIAR PASTA DO AMBIENTE DENTRO DO PROJETO
+poetry config virtualenvs.in-project true
+
+ATIVAR AMBIENTE
+poetry shell
+
+INFORMAÇÃO DO AMBIENTE
+poetry env info
+
+MOSTRA O CAMINHO DA PASTA DO AMBIENTE
+poetry env info -p
+
+DESATIVA O AMBIENTE
+deactivate
+
+
+

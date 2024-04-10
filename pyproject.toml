@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "exemples"
+version = "1.0.0"
+description = "for tests"
+authors = ["Raivaz <rai.vaz@inacsistemas.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+emoji = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
