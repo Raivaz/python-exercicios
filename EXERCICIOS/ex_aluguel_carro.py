@@ -1,7 +1,8 @@
 dias = int(input('Por quantos dias foi alugado: '))
 km = float(input('Quantos km você rodou: '))
 
-teste = 'teste'
+teste = 'teste5'
+
 
 total = (dias * 60) + (km * 0.15)
 
