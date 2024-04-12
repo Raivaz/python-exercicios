@@ -13,5 +13,8 @@ poetry env info -p
 DESATIVA O AMBIENTE
 deactivate
 
+TRANSFORMA AS DEPENDENCIAS DO ARQUIVO pyproject.toml EM ARQUIVO DE DEPENDENCIAS requirements.txt DO PIP
+poetry export | tee requirements.txt
+
 
 
