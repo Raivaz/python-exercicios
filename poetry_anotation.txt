@@ -16,5 +16,8 @@ deactivate
 TRANSFORMA AS DEPENDENCIAS DO ARQUIVO pyproject.toml EM ARQUIVO DE DEPENDENCIAS requirements.txt DO PIP
 poetry export | tee requirements.txt
 
+ENTRA DENTRO DE UMA IMAGEM DOCKER
+docker run -it teste sh
+
 
 
